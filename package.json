@@ -1,0 +1,11 @@
+{
+  "name": "meu-bot-figurinha",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "sharp": "^0.33.0",
+    "pino": "^8.17.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
