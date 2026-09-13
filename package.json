@@ -1,11 +1,15 @@
 {
-  "name": "meu-bot-figurinha",
+  "name": "figurinha-bot",
   "version": "1.0.0",
+  "description": "Bot privado de WhatsApp para transformar fotos em figurinhas",
+  "type": "module",
   "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.0",
-    "sharp": "^0.33.0",
-    "pino": "^8.17.0",
-    "qrcode-terminal": "^0.12.0"
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "pino": "^9.7.0",
+    "sharp": "^0.34.3"
   }
 }
